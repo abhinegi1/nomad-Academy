@@ -1,0 +1,107 @@
+@media only screen and (max-width: 758px) {
+    .container1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align content */
+    }
+  .hero {
+    height: 76vh;
+  }
+    .text-content, .image-container {
+        width: 100%; /* Ensure full width */
+        margin: 10px 0; /* Add some spacing */
+    }
+  
+    .text-content {
+        padding: 20px;
+        text-align: left; /* Keep text alignment readable */
+    }
+  
+    .carousel-image {
+        width: 100%; /* Ensure carousel images take full width */
+        height: auto; /* Auto height for proper scaling */
+    }
+  
+    .carousel {
+        display: flex;
+        justify-content: center;
+    }
+  
+    .course-grid, .benefit-grid {
+        flex-direction: column; /* Stack elements */
+        gap: 20px;
+    }
+    .card h5{
+      font-size:0.6rem;
+     
+    }
+    #cd{
+      margin: 0;
+      padding: 0;
+    }
+    #courses{
+      width: auto;
+      height: 46vh;
+      /* padding: 138px 0px;  */
+    }
+    .logo-content p{
+      font-size: 0.5rem;
+      padding: 9px 115px;
+    }
+  
+    
+  }
+  @media only screen and (max-width: 658px){
+  .hero{
+    height: 69vh;
+  }
+  #courses {
+    width: auto;
+    height: 42vh;
+    /* padding: 138px 0px; */
+  }
+  #benefits {
+    height: 46vh;
+    padding: 10px 34px;
+  }
+  #cta{
+    margin-top: -38px;
+  }
+  }
+  @media only screen and (max-width: 588px){
+  .hero{
+    height: 66vh;
+  }
+  #courses {
+    width: auto;
+    height: 42vh;
+    /* padding: 138px 0px; */
+  }
+  #benefits {
+    height: 46vh;
+    padding: 10px 34px;
+  }
+  #cta{
+    margin-top: -38px;
+  }
+  }
+  @media only screen and (max-width: 480px){
+  .hero{
+    height: 63vh;
+  }
+  #courses {
+    width: auto;
+    height: 47vh;
+    /* padding: 138px 0px; */
+  }
+  #benefits {
+    height: 57vh;
+    padding: 10px 34px;
+  }
+  #cta{
+    margin-top: -97px;
+  }
+  }
+  
+  
+  

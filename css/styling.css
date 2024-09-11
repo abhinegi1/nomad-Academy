@@ -1,0 +1,534 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap'); */
+
+body{
+    font-family: 'montserratlight', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    background-color: var(--body-main-color);
+
+}
+
+p, h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+}
+ul,ol
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    color: var(--green-color);
+}
+
+:root
+{
+  --header-bgcolor: #353534;
+  --orange-color: #fd412f;
+  --body-main-color: #272727;
+   --blue-color: #003371;
+   --blue-toned-color: #27699D;
+   --white-color: #ffffff;
+   --blue-highlightcolor: #065098;
+   --darkblue-color: #1B416D;
+   --footer-bgcolor: #272727;
+   --green-color: #00B97F;
+   --gray-color: #979797;
+   --lightgray-color: #EDEDED;
+
+}
+
+.btn-greenapl {
+  color: var(--white-color);
+  background-color: var(--green-color);
+  border-color: var(--green-color);
+}
+
+.pad-nav
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-height
+{
+  height: 60px;
+}
+
+.logo-text
+{
+  text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: var(--white-color);
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.header-color
+{
+   background-color: var(--header-bgcolor);
+}
+
+.nav-center-logo
+{
+  justify-content: center !important;
+}
+.navbar .navbar-nav .nav-link {
+    margin-right: 75px;
+    padding: 25px 0;
+    color: var(--blue-color);   
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link.active {
+    color: var(--green-color);
+}
+
+.login-btn
+{
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--green-color);
+    width: 190px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/*---------------------------------
+  Accordian Example Section STYLE
+-------------------------------*/
+
+.catg-wrapup-sec
+{
+   background-color: var(--body-main-color);
+}
+
+.container-catg {
+  padding: 35px 35px;
+  margin: 0 auto;
+  width: 100%;
+}
+h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+}
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+.item {
+  flex: 2;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  -webkit-transition: flex 0.8s ease;
+}
+
+.hover-show-details
+{
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.hover-show-details .order-button
+{  
+  padding: 8px 15px;
+  background-color: #fd412f;
+  border: 1px solid #fd412f;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.hover-show-details p
+{
+ font-size: 20px;
+ line-height: 25px;
+ color: #000000;
+ margin-bottom: 30px;
+ color: var(--white-color);
+ transition: flex 0.8s ease;
+ -webkit-transition: flex 0.8s ease;
+ 
+}
+
+.item:hover {
+  flex: 6;
+  cursor: pointer;
+}
+
+.item
+{
+  position: relative;
+}
+
+.item-1:hover .hover-show-details
+{
+ display: inline-block;
+}
+
+.item-2:hover .hover-show-details
+{
+ display: inline-block;
+}
+
+.item-3:hover .hover-show-details
+{
+ display: inline-block;
+}
+
+.item-4:hover .hover-show-details
+{
+ display: inline-block;
+}
+
+.item-1 {
+  /* background-image: url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80'); */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../img/new-img/nomad-pizza.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.item-2 {
+  /* background-image: url('https://images.unsplash.com/photo-1492760864391-753aaae87234?auto=format&fit=crop&w=1336&q=80'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../img/new-img/nomad-burger.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.item-3 {
+  /* background-image: url('https://images.unsplash.com/photo-1503631285924-e1544dce8b28?auto=format&fit=crop&w=1234&q=80'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../img/new-img/Burrito_bowl.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.item-4 {
+  /* background-image: url('https://images.unsplash.com/photo-1510425463958-dcced28da480?auto=format&fit=crop&w=1352&q=80'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('../img/new-img/nomad-enso-sourdough.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.heading-text
+{
+  padding: 5%;
+  writing-mode: vertical-lr;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.heading-text
+{
+  padding: 5%;
+  writing-mode: vertical-lr;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+
+
+/*-------------------------------STYLING NOMAD ABOUT---------------------------------*/
+
+.nomad-about-sec
+{
+  padding: 40px 8%;
+  background-color: var(--body-main-color);
+}
+
+.nomad-about-sec h4
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    text-align: center;
+    letter-spacing: 9px;
+    margin-bottom: 70px;
+}
+
+.nomad-about-sec .about-text
+{
+  padding-right: 30px;
+}
+
+.nomad-about-sec .about-text h2
+{
+  font-family: 'montserratlight', sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  color: var(--white-color);
+  letter-spacing: 1px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+
+.nomad-about-sec .about-text p
+{
+    font-size: 18px;
+    color: var(--gray-color);
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.nomad-about-sec .our-specialization h2
+{
+  font-family: 'montserratlight', sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  color: var(--white-color);
+  letter-spacing: 1px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+
+.nomad-about-sec .our-specialization .specialize-name
+{
+  padding-bottom: 10px;
+}
+
+.nomad-about-sec .our-specialization .specialize-name img
+{ 
+   width: 50px;
+}
+
+.nomad-about-sec .our-specialization .specialize-name h5
+{
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin: 15px 0;
+  color: var(--white-color);
+}
+
+
+.color-icons
+{
+  color: var(--white-color);
+}
+
+
+.footer-credit-name
+{
+  border-top: 1px solid var(--lightgray-color);
+  padding: 40px 0;
+  color: var(--gray-color);
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.btn-primary-new
+{
+  background-color: var(--orange-color);
+  border-color: var(--orange-color);
+  color: var(--white-color);
+}
+
+/*---------------FOOTER CSS-----------------*/
+
+.bg-footer
+{
+    background-color: var(--footer-bgcolor);
+    padding-top: 35px;
+    /* padding-bottom: 80px; */
+}
+
+.footer-inner-wraper
+{
+    padding: 0px 10%;
+}
+
+.footer-inner-wraper .footer-logo img
+{
+  
+}
+
+.footer-link-box
+{
+    padding: 30px 14% 0 14%;
+}
+
+.footer-link-box .footer-link h3
+{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.footer-link-box .footer-link p
+{
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-link-box .footer-link ul li
+{
+    margin-bottom: 12px;
+}
+
+.footer-link-box .footer-link ul li a
+{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer-link-box .footer-link .subscribe-link
+{
+    text-decoration: underline;
+}
+
+.footer-link-box .footer-link h5
+{
+    color: var(--white-color);
+    font-size: 20px;
+    font-family: Cairo;
+    font-weight: 700;
+}
+
+.footer-link-box .footer-link .socialmedia-btn ul li
+{
+   display: inline-block;
+   margin-right: 12px;
+}
+
+.bootom-privacynav-link
+{
+    padding: 30px 7%;
+    margin-top: 50px;
+}
+
+.bootom-privacynav-link ul li
+{
+    display: inline-block;
+    padding: 0 35px;
+    border-right: 4px solid;
+    border-color: var(--green-color);
+}
+
+.bootom-privacynav-link ul li a
+{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.know-nomad
+{
+  padding: 10px 35px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #fd412f;
+  border: 1px solid #fd412f;
+  color: #ffffff;
+  margin-top: 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.know-nomad:hover
+{
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #fd412f;
+}
+
+.feedback-queries-box
+{
+
+}
+
+.feedback-queries-box h2
+{
+  color: var(--white-color);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.quicklinks-box 
+{
+  padding: 10px 0;
+}
+
+.quicklinks-box  .quicklink-innerbox
+{
+  margin: 0 auto;
+  display: table;
+}
+
+.quicklinks-box ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quicklinks-box ul li
+{
+  display: inline-block;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    border-right: 1px solid var(--lightgray-color);
+}
+
+
+.quicklinks-box ul li a
+{
+  color: var(--lightgray-color);
+}
+
+.quicklinks-box ul li a:hover
+{
+  color: var(--orange-color);
+}

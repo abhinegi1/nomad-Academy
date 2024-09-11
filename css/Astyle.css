@@ -1,0 +1,371 @@
+
+*{
+  font-family: 'montserratlight', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  /* background-color: var(--body-main-color); */
+
+}
+.hero {
+    /* background: url('/img/P1034559.jpg') center/cover no-repeat; */
+    height: 100vh;
+    display: grid;
+   
+   
+  }
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Left side 1 portion, right side 2 portions */
+    height: 100vh; /* Full screen height */
+  }
+  
+  .logo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Left align */
+    padding: 20px;
+    background-color: #f0f0f0; /* Optional: Add background color */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Ensure image covers the entire area */
+  }
+  
+  .hero-content{
+    display: flex;
+   justify-content:space-around;
+    align-items: center; 
+    gap: 45px;
+    grid: auto-flow / 1fr 1fr 1fr;
+  }
+  
+  
+  .hero h1 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+    z-index: 0.2;
+    position: relative;
+    margin-top: 10px;
+    /* text-align: left; */
+  }
+  
+  .hero .cta-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size:8px;
+  }
+  #logo{
+    width: 250px;
+    height: 190px;
+    margin-top:0 ;
+    
+  }
+
+
+  #courses h2{
+    color:#e5533d;
+    font-weight: bold;
+    /* text-decoration: underline; */
+  }
+  #courses {
+    /* color: white; */
+    /* background: url('/img/new-img/nomad-pizza.jpg') center/cover no-repeat; */
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+  }
+  
+  /* Course Grid */
+  /* Basic Reset */
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #353534; */
+  }
+  
+  /* Course Grid */
+  .course-grid {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course-card {
+    /* background-color: #353534; */
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .course-card img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .im{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  .im:hover {
+    transform: scale(1.1); /* Slight zoom */
+  }
+  
+  .course-card h3 {
+    color: black;
+    /* text-decoration:underline; */
+  }
+  
+  .course-card p {
+    margin-bottom: 15px;
+  }
+  
+  .cta-button {
+    background-color: #353534;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e5533d;
+  }
+  
+  /* Hide the actual checkboxes */
+  .toggle {
+    display: none;
+  }
+  
+  /* Initially hide course info */
+  .course-info {
+    display: none;
+    padding-top: 10px;
+  }
+  
+  /* Show course info when checkbox is checked */
+  .toggle:checked + label + .course-info {
+    display: block;
+  }
+  
+  /* Call-to-Action */
+  #cta {
+    background-color: #353534;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #cta h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  #cta .cta-button {
+    background-color: white;
+    color: #ff6347;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  
+#benefits{
+    background-color: #353534;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+        /* color: white; */
+    /* background: url('/img/new-img/nomad-burger.jpg') center/cover no-repeat; */
+    height: 49vh;
+  
+}
+.benefit-grid{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 23px;
+}
+.benefit-card{
+  border: 2px solid white;
+  border-radius: 15px ;
+  background-color: white;
+  /* box-shadow: 10px 10px 40px red; */
+}
+#courses{
+    background-color: #353534;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+  
+#benefits h2{
+    color:#ff6347;
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+#benefits h3{
+    color:#ff6347;
+    font-size: 1.2rem;
+    
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+}
+.card{
+  height: 500px;
+  width: 500px;
+  background-color:#353534;
+  border: 1px solid #353534;
+  
+}
+#cd{
+  justify-content: center;
+  /* align-items: center; */
+  text-align: left;
+}
+/* Carousel container */
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  height: 400px; /* Adjust based on your design */
+}
+
+/* Carousel slide (contains all images) */
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Carousel images */
+.carousel-image {
+  width: 100%;
+  height: 400px; /* Adjust height based on your design */
+  object-fit: cover;
+}
+
+/* Navigation buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  padding: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+p{
+  color: rgb(65, 65, 65);
+}
+#cd2{
+  display: flex;
+  align-items: center;
+}
+
+
+/* responsive  */
+/* General reset for mobile view */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For devices smaller than 768px (Tablets and Phones) */
+@media only screen and (max-width: 768px) {
+  #logo{
+    width: 100px;
+    height: 90px;
+    margin-top:0 ;
+    
+  }
+
+  .hero .cta-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 7px 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size:4px;
+    margin-top: 18px;
+  }
+  .container1 {
+      grid-template-columns: 1fr; /* Make the grid single column */
+  }
+
+  .logo-content {
+      align-items: center; /* Center content on smaller screens */
+      text-align: center;
+  }
+
+  .hero h1 {
+      font-size: 1.5em; /* Reduce font size */
+  }
+
+  .image-container img {
+      height: auto; /* Auto-height for better image scaling */
+      margin-top: -11px;
+  }
+
+  .course-grid {
+      flex-direction: column; /* Stack course cards vertically */
+      align-items: center;
+  }
+
+  .course-card img {
+      width: 100%; /* Full width on mobile */
+  }
+
+
+  .benefit-grid {
+      flex-direction: column; /* Stack benefit cards vertically */
+      gap: 10px;
+  }
+  #benefits{
+    height: 52vh;
+    padding: 10px 34px;
+  }
+
+  .card {
+      padding-top: 67px;
+      width: 100%; /* Ensure cards take full width */
+      height: 338px;
+      /* justify-content: center; */
+      /* margin-top:0 ; Allow height to auto-adjust */
+  }
+
+  .carousel-image {
+      height: 100px; /* Adjust carousel image height for mobile */
+  }
+}
+
+/* Adjust the container for mobile */

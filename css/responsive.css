@@ -1,0 +1,323 @@
+
+/*-----------------------------------------
+ [MASTER RESPONSIVE STYLE SHEET]
+-----------------------------------------------*/
+
+
+  /*-------------------------------------------------------*/
+/* When the browser is above 1200px wide, below css will be applied.
+/*-------------------------------------------------------*/
+
+
+.item-1:hover h4 {
+  writing-mode: initial;
+  text-align: center;
+
+}
+
+.item-2:hover .heading-text {
+  writing-mode: initial;
+  text-align: center;
+}
+
+.item-3:hover .heading-text {
+  writing-mode: initial;
+  text-align: center;
+}
+
+.item-4:hover .heading-text {
+  writing-mode: initial;
+  text-align: center;
+}
+@media screen and (min-width: 1680px) {
+
+
+
+}
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1200px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {} @media screen and (min-width: 1200px) {} @media screen and (max-width: 1200px) and (min-width: 992px) {}
+/*-------------------------------------------------------*/
+/* When the browser is between 992px and 1319px wide,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+
+  
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1299px) {
+
+
+}
+
+
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 1120px wide,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width: 1120px) {
+
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 992px wide,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width: 992px) {
+}
+
+
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 767px wide,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+  }
+
+
+/*-------------------------------------------------------*/
+/* When the browser is above 768px wide, below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+.noDesktop
+{
+    display: none;
+}
+}
+
+
+/*-------------------------------------------------------*/
+/* When the browser is between 0px and 767px wide,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+.noMobile
+{
+    display: none;
+}
+
+.logo-text
+{
+  font-size: 35px;
+}
+
+.nomad-about-sec h4 {
+  font-size: 25px;
+  letter-spacing: 6px;
+  margin-bottom: 60px;
+}
+
+.nomad-about-sec .about-text h2 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.nomad-about-sec .our-specialization h2 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.nomad-about-sec .our-specialization .specialize-name h5
+{
+  font-size: 18px;
+}
+
+.heading-text
+{
+  font-size: 14px;
+
+}
+
+
+
+
+.hover-show-details p {
+  font-size: 10px;
+  line-height: 14px;
+  color: #000000;
+  margin-bottom: 30px;
+  color: var(--white-color);
+  transition: flex 0.5s ease;
+}
+
+
+.hover-show-details .order-button {
+  padding: 4px 30px;
+  background-color: #fd412f;
+  border: 1px solid #fd412f;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  /* word-wrap: break-word; */
+  display: inline-block;
+  word-wrap: no-wrap;
+}
+
+.gallery-wrap {
+    height: 45vh;
+}
+
+.logo-height
+{
+    height: 45px;
+}
+
+.pad-nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container-catg {
+    padding: 20px 20px;
+}
+
+.hover-show-details {
+    bottom: 30px;
+    width: 75%;
+}
+
+
+.item:hover h4
+{
+    text-align: center;
+    writing-mode: initial;
+
+}
+/* .gallery-wrap:hover .heading-text{
+  writing-mode: initial;
+  text-align: center;
+
+} */
+.item-1:hover h4 {
+  writing-mode: initial;
+  text-align: center;
+
+}
+
+.item-2:hover .heading-text {
+  writing-mode: initial;
+  text-align: center;
+}
+
+.item-3:hover .heading-text {
+  writing-mode: initial;
+  text-align: center;
+}
+
+.item-4:hover .heading-text {
+  writing-mode: initial;
+  text-align: center;
+}
+
+.feedback-queries-box h2
+{
+  font-size: 15px;
+}
+
+.quicklinks-box ul li
+{
+  border-right: 0;
+    padding-left: 0px;
+    padding-right: 15px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+/*-------------------------------MOBILE VIEW NEW DESIGN CSS---------------------------------*/
+
+/*.gallery-wrap {
+  display: block;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.item {
+  margin-bottom: 6px;
+  position: relative;
+  border-radius: 10px;
+  width: 48%;
+  float: right;
+  margin-right: 6px;
+  clear: left;
+}
+
+.gallery-wrap {
+  height: 36vh;
+}
+
+.container-catg {
+  padding: 15px 15px;
+}
+
+.heading-text {
+  font-size: 14px;
+  writing-mode: initial;
+  padding-top: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.catg-wrapup-sec
+{
+  margin-bottom: 67%;
+}*/
+
+/*.item-1, .item-2, .item-3, .item-4
+{
+    background-size: 100%;
+}*/
+
+/*.item-1 {
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/new-img/nomad-pizza.jpg);
+
+}
+
+.item-2 {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/new-img/nomad-burger.jpg);
+   
+}
+
+.item-3 {
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/new-img/nomad-salad.jpg);
+   
+}
+
+.item-4 {
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/new-img/nomad-enso-sourdough.jpg);
+   
+}*/
+
+.item {
+ 
+  transition: flex 0.2s ease;
+  -webkit-transition: flex 0.2s ease;
+}
+
+.hover-show-details p
+{
+ transition: none;
+ -webkit-transition: none;
+ 
+}
+
+
+}
